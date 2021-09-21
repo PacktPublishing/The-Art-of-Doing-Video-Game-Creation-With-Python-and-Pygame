@@ -1,6 +1,6 @@
 import pygame
 
-#Intiailize Pygame
+#Initialize Pygame
 pygame.init()
 
 #Create a display surface and set its caption
