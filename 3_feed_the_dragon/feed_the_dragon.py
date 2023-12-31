@@ -116,6 +116,7 @@ while running:
     if player_lives == 0:
         display_surface.blit(game_over_text, game_over_rect)
         display_surface.blit(continue_text, continue_rect)
+        display_surface.blit(lives_text, lives_rect)
         pygame.display.update()
 
         #Pause the game until player presses a key, then reset the game
